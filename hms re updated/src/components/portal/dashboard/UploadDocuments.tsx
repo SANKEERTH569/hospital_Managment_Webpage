@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FiFileText, FiImage, FiFilePdf, FiXCircle } from 'react-icons/fi';
+import { FiFileText, FiImage, FiFile, FiXCircle } from 'react-icons/fi';
 
 export function UploadDocuments() {
   const [selectedFiles, setSelectedFiles] = useState([]);
