@@ -24,7 +24,7 @@ export const useAuthStore = create<AuthState>((set) => ({
     // Simulate API call
     await new Promise(resolve => setTimeout(resolve, 1000));
     
-    if (email === 'EnthalaManoj@medicare.p.com' && password === 'password') {
+    if (email === 'manoj.pt@medicare.com' && password === 'password') {
       set({ user: mockUser, isAuthenticated: true });
     } else {
       throw new Error('Invalid credentials');
