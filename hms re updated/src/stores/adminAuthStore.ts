@@ -19,7 +19,7 @@ export const useAdminAuthStore = create<AdminAuthState>((set) => ({
     await new Promise(resolve => setTimeout(resolve, 1000));
     
     // Mock authentication logic
-    if (role === 'admin' && email === 'sudheer.admin@medicare.com') {
+    if (role === 'admin' && email === 'manoj.admin@medicare.com') {
       const adminUser: AdminUser = {
         id: 'a1',
         email,
@@ -29,7 +29,7 @@ export const useAdminAuthStore = create<AdminAuthState>((set) => ({
         permissions: ['all'],
       };
       set({ user: adminUser, isAuthenticated: true, role: 'admin' });
-    } else if (role === 'staff' && email === 'satish.staff@medicare.com') {
+    } else if (role === 'staff' && email === 'aadhi.staff@medicare.com') {
       const staffMember: StaffMember = {
         id: 's1',
         email,
