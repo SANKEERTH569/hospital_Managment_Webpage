@@ -37,7 +37,7 @@ export function LoginForm() {
 
   return (
     <AuthLayout 
-      title="Welcome back"
+      title="Patient Login"
       subtitle="Don't have an account?"
       type="login"
     >
